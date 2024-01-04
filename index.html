@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The 7 wonders of the world</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="BootstrapCarousel.css" />
+    <!--Instead of linking bootstrap, I just took the code directly, so that I only take
+    the code which I need.-->
+  </head>
+
+  <body id="The 7 wonders of the world">
+    <br /><br /><br /><br /><br /><br />
+    <header>
+      <br /><br />
+      <hgroup>
+        <h1><span class="ss-world">The 7 wonders</span>
+        <h1><span class="ss-world2">Of the world</span>  
+        <h2>
+          <span class="ss-masterpieces">Masterpieces of civilization</span>
+        </h2>
+      </hgroup>
+
+      <nav>
+        <ul>
+          <div class="ss-bottomHeader">
+            <li><a id="Green" href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Visit.html">Visit</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <main>
+      <br />
+      <p class="ss-information">
+        Below is a Slide-show. Use the arrows on the sides to navigate, and
+        click the image to open up a new page.
+      </p>
+      <br />
+      <!--This is a slideshow made with bootstrap, as such most class names won't contain ss.-->
+      <div id="carouselContainer">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel carousel-dark slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="Colosseus of Rhodes.html"
+                ><img
+                  src="Colossus of Rhodes.jpg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold">The Colossus of Rhodes</h5>
+                  <p class="ss-bold">Helios, Sun God</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Gardens of Babylon.html"
+                ><img
+                  src="Gardens of Babylon.jpg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold1">Gardens of Babylon</h5>
+                  <p class="ss-bold1">Remarkable Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Lighthouse of Alexandria.html"
+                ><img
+                  src="Lighthouse of Alexandria.jpg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold2">Lighthouse of Alexandria</h5>
+                  <p class="ss-bold2">The "Pharos"</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Mausoleum at Halicarnassus.html"
+                ><img
+                  src="Mausoleum at Halicarnassus.jpeg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold3">Mausoleum at Halicarnassus</h5>
+                  <p class="ss-bold3">Tomb of Mausolus</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Pyramid of Giza.html"
+                ><img
+                  src="Pyramid of Giza.jpg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold4">Great Pyramid of Giza</h5>
+                  <p class="ss-bold4">The Oldest Wonder</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Statue of Zeus.html"
+                ><img
+                  src="Statue of Zeus.jpg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold5">Statue of Zeus</h5>
+                  <p class="ss-bold5">God of Thunder</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="Temple of Artemis.html"
+                ><img
+                  src="Temple of Artemis.jpeg"
+                  class="d-block w-100"
+                  alt="The Colossus of Rhodes"
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="ss-block">
+                  <h5 class="ss-bold6">Temple of Artemis</h5>
+                  <p class="ss-bold6">Artemision</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <br />
+
+    <footer>
+      <div class="ss-Footer">
+        <p>Design by: Samir Sahiti</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.ss-container{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    color: #dbdad8;
+    background-color: #0b0a0a;
+    padding: 15px;
+    line-height: 25px;
+}
+.ss-FAQ{
+    border-bottom: 3px solid rgb(209, 208, 205);
+    padding-bottom: 15px;
+}
+.ss-bold{
+    font-weight: 700;
+    color: #cdda19;
+}
+h3{
+    color: rgb(225, 41, 41);
+}
