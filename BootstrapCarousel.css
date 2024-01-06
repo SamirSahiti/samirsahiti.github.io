@@ -246,17 +246,19 @@ img{
     max-height: 80vh;
     min-height: 60vh;
 }
-.ss-bold{
-    font-size: 1.5em;
-    font-weight: 1000;
-    color: rgb(68, 68, 243);
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .ss-block{
     background: rgba(0, 0, 0, 0.8);
     width: max-content;
     margin: 0px auto;
     padding: 10px;
+}
+
+.ss-bold{
+  font-size: 1.5em;
+  font-weight: 1000;
+  color: rgb(68, 68, 243);
+  font-family: 'Times New Roman', Times, serif;
 }
 .ss-bold1{
   font-size: 1.5em;

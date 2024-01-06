@@ -1,0 +1,47 @@
+.ss-container{
+    width: 100%;
+    height: max-content;
+    float: left;
+}
+.ss-container1{
+    width: 100%;
+    height: max-content;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+.ss-innerContainer{
+    border: 5px solid black;
+    float: left;
+    width: 45%;
+    margin-left: 3.5%;
+    height: max-content;
+}
+.ss-innerContainer1{
+    border: 5px solid black;
+    float: left;
+    width: 45%;
+    margin-left: 3.5%;
+    height: max-content;
+}
+.ss-leftContainer{
+   width: 100%;
+   color: #f5f6f7;
+   padding: 10px;
+}
+.ss-rightContainer{
+    font-size: 18px;
+    border-top: 2px solid grey;
+    color: #f5f6f7;
+    width: 100%;
+    padding: 10px;
+}
+img{
+   width: 100%;
+   min-height: 30vh;
+   max-height: 45vh; /*having to make it responsive for phone is painful*/
+}
+
+.red{
+    color: rgb(195, 34, 34);
+}

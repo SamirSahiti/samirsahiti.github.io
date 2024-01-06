@@ -45,19 +45,42 @@ nav ul a{
 a:hover{
     color: red;
 }
-.ss-world{
+#ss-world{
     color: rgb(21, 163, 163);
 }
-.ss-world2{
+#ss-world1{
     color: rgb(57, 202, 17);
 }
-.ss-masterpieces{
+#ss-masterpieces{
     color: rgb(182, 42, 42);
 }
-
+/*COLOR CLASSES*/
+.ss-masterpieces1{
+    color: rgb(68, 68, 243);
+}
+.ss-masterpieces2{
+    color: rgb(169, 169, 47);
+}
+.ss-masterpieces3{
+    color: rgb(39, 191, 100);
+}
+.ss-masterpieces4{
+    color: rgb(143, 53, 203);
+}
+.ss-masterpieces5{
+    color: rgb(216, 117, 46);
+}
+.ss-masterpieces6{
+    color: rgb(234, 221, 34);
+}
+.ss-masterpieces7{
+    color: rgb(207, 43, 34);
+}
 #Green{
     color: rgb(36, 208, 36);
 }
+
+
 .ss-Footer{
     margin-top: 5%;
     position: relative;
