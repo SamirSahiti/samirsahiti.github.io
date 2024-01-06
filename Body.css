@@ -38,7 +38,7 @@
 }
 img{
    width: 100%;
-   min-height: 30vh;
+   min-height: 20vh;
    max-height: 45vh; /*having to make it responsive for phone is painful*/
 }
 
