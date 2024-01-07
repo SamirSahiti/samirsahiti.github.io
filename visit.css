@@ -1,0 +1,32 @@
+.ss-container{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10%;
+    padding: 15px;
+    line-height: 25px;
+    color: #dbdad8;
+    background-color: #0b0a0a;
+}
+h3{
+     color: rgb(225, 41, 41);
+}
+h4{
+    color: rgb(225, 41, 41);
+}
+label{
+    padding: 10px;
+}
+.ss-hidden{
+    display: none;
+}
+.ss-left{
+    text-align: left;
+    width: 250px;
+    margin: 20px auto;
+}
+iframe{
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+}

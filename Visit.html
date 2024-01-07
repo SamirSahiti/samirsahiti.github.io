@@ -4,12 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The 7 wonders of the world</title>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="visit.css" />
+    <script src="visit.js" defer></script>
   </head>
 
   <body id="The 7 wonders of the world">
@@ -24,5 +21,64 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div class="ss-container">
+      <h3>Would you like to know the <span>locations </span>of the 7 wonders?</h3>
+      <br>
+      <form>
+        <label><input type="checkbox" id="ss-yes"> Yes</label>
+        <label><input type="checkbox" id="ss-no"> No</label>
+      </form>
+      <br>
+      <div class="ss-hidden" id="ss-clickNo">
+        <h3>Not cool man, not cool</h3>
+      </div>
+      <div class="ss-hidden" id="ss-clickYes">
+        <h3>Which wonders location would you like to know?</h3>
+        <div class="ss-left">
+        <div class="ss-block"><label><input type="checkbox" id="ss-colossus"> Colossus of Rhodes</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-garden"> Gardens of Babylon</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-lighthouse"> Lighthouse of Alexandria</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-tomb"> Tomb of Mausolus</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-pyramid"> Pyramid of Giza</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-statue"> Statue of Zeus</label></div>
+        <div class="ss-block"><label><input type="checkbox" id="ss-temple"> Temple of Artemis</label></div>
+        </div>
+        <div class="ss-hidden" id="ss-clickColossus"> 
+          <h4>This was the location of the Rhodes Colossus:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491.03996948311595!2d28.225735437616464!3d36.45100179740504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1495619a72df1397%3A0xe0e598a70e6bd9c6!2sMyth%20Colossus%20of%20Rhodes!5e0!3m2!1sen!2s!4v1704633497020!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickGarden"> 
+          <h4>This was the location of the Babylon Gardens:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3999.7071846668387!2d44.41862584166914!3d32.54378513722161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1558fdd71dd08931%3A0x6fe5866e28155e9a!2sRemains%20of%20the%20Hanging%20Gardens%20of%20Babylon!5e0!3m2!1sen!2s!4v1704634438579!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickLighthouse"> 
+          <h4>This was the location of the Alexandria Lighthouse:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109191.55130870208!2d29.747116543359375!3d31.214191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c59b6eccdc31%3A0x39a6e16955846edf!2sLighthouse%20of%20Alexandria!5e0!3m2!1sen!2s!4v1704634607757!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickTomb"> 
+          <h4>This was the location of the Mausolus Tomb:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.821941637754!2d27.421541475337964!3d37.037891654265664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be6c4712970997%3A0x5ea4619a942df9d1!2sMausoleum%20at%20Halicarnassus!5e0!3m2!1sen!2s!4v1704634657206!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickPyramid"> 
+          <h4>This is the location of the Giza Pyramid:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.041477142921!2d31.130775125033516!3d29.978237971705482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2s!4v1704634774456!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickStatue"> 
+          <h4>This was the location of the Statue of Zeus:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.195018561653!2d21.623349975367056!3d37.644618919647705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x136093d9fcbe23df%3A0xc04fa5eb15ec28a7!2sStatue%20of%20Zeus%20at%20Olympia!5e0!3m2!1sen!2s!4v1704634887400!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ss-hidden" id="ss-clickTemple"> 
+          <h4>This was the location of the Temple of Artemis:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.1893605514565!2d27.36128127538169!3d37.949364302084554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b94d56fca57281%3A0xfaa6e359607f4524!2sThe%20Temple%20of%20Artemis!5e0!3m2!1sen!2s!4v1704634961406!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="ss-visitFooter">
+        <p class="”ss-FooterText”">Design by: Samir Sahiti</p>
+      </div>
+    </footer>
     </body>
 </html>
