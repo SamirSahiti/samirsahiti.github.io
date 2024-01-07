@@ -1,12 +1,9 @@
 
 var checkbox = document.getElementById('ss-no');
-var div = document.getElementById('ss-clickNo');
 
 checkbox.addEventListener('change', function(){
     if (checkbox.checked) {
-        div.style.display = 'block';
-    } else {
-        div.style.display = 'none';
+        alert("Not cool man, not cool.");
     }
 })
 
@@ -18,6 +15,7 @@ checkbox1.addEventListener('change', function(){
         div1.style.display = 'block';
     } else {
         div1.style.display = 'none';
+        
     }
 })
 var checkbox2 = document.getElementById('ss-colossus');
