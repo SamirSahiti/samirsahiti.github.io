@@ -4,6 +4,7 @@ var checkbox = document.getElementById('ss-no');
 checkbox.addEventListener('change', function(){
     if (checkbox.checked) {
         alert("Not cool man, not cool.");
+        div1.style.display = 'none';
     }
 })
 
